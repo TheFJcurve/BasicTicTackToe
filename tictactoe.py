@@ -83,7 +83,6 @@ canvas = Canvas(root, height=600, width=600, bg='white')
 canvas.pack()
 
 # Importing the Images
-whiteimg = ImageTk.PhotoImage(file="tictactoe/white.jpg")
 ximage = Image.open("tictactoe/x.png")
 ximage = ximage.resize((81, 81))
 ximg = ImageTk.PhotoImage(ximage)
